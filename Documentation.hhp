@@ -1,0 +1,19 @@
+[OPTIONS]
+Title=Conditions Class Documentation
+Compiled file=..\Documentation.chm
+Language=0x409 English (United States)
+Contents file=Documentation.hhc
+Default topic=pages\default.htm
+Binary TOC=No
+Full-text search=Yes
+Index file=Documentation.hhk
+
+[FILES]
+images\icons.png
+images\lightbulb_off.png
+images\lightbulb_on.png
+images\copy.png
+images\open.png
+images\closed.png
+images\collapse_all.png
+images\expand_all.png

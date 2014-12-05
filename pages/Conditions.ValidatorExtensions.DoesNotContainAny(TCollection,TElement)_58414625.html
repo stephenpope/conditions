@@ -1,0 +1,109 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+	<title>ValidatorExtensions.DoesNotContainAny(TCollection, TElement) Method (Conditions)</title>
+	<link href="../style.css" rel="stylesheet" type="text/css" />
+	<script src="../scripts.js" type="text/javascript"></script>
+	<style type="text/css">
+		.csharp { display: inline; }
+		.vb { display: none; }
+		.cpp { display: none; }
+	</style>
+</head>
+<body id="top">
+
+<div id="header">
+<p id="title">Conditions Class Documentation</p>
+<h1><span class="csharp">ValidatorExtensions.DoesNotContainAny&lt;TCollection,&nbsp;TElement&gt;</span><span class="vb">ValidatorExtensions.DoesNotContainAny&#65279;(Of&nbsp;TCollection,&nbsp;TElement)</span><span class="cpp">ValidatorExtensions::DoesNotContainAny&lt;TCollection,&nbsp;TElement&gt;</span> Method</h1>
+<div id="functions" style="display:none"><a id="collapseAll" href="javascript:collapseAll();">Collapse All</a><a id="expandAll" href="javascript:expandAll();">Expand All</a></div>
+</div>
+<div id="content">
+<div id="contentTop">
+
+<h2 id="syntax">Syntax</h2>
+<div>
+<div id="syntaxPanel">
+<div class="code-block default" lang="x-csharp">
+<div class="code-header"><span class="title">C#</span></div>
+<div class="code"><p><span class="keyword">public</span>&nbsp;<span class="keyword">static</span>&nbsp;<a class="type" href="Conditions.ConditionValidator(T).html">ConditionValidator</a>&lt;TCollection&#65279;&gt;&nbsp;DoesNotContainAny&lt;TCollection,&nbsp;TElement&gt;&#65279;(</p>
+<div>
+<p><span class="keyword">this</span>&nbsp;<a class="type" href="Conditions.ConditionValidator(T).html">ConditionValidator</a>&lt;TCollection&#65279;&gt;&nbsp;validator,</p>
+<p><a class="type" href="http://msdn.microsoft.com/en-us/library/9eekhta0">IEnumerable</a>&lt;TElement&#65279;&gt;&nbsp;elements,</p>
+<p><span class="keyword">string</span>&nbsp;conditionDescription</p>
+</div>
+<p>)</p>
+<p><span class="keyword">where</span>&nbsp;TCollection&nbsp;: <a class="type" href="http://msdn.microsoft.com/en-us/library/9eekhta0">IEnumerable</a>&lt;TElement&#65279;&gt;</p>
+</div>
+</div>
+<div class="code-block" lang="x-vb">
+<div class="code-header"><span class="title">VB</span></div>
+<div class="code"><p><span class="keyword">Public</span>&nbsp;<span class="keyword">Shared</span>&nbsp;<span class="keyword">Function</span>&nbsp;DoesNotContainAny&#65279;(<span class="keyword">Of</span>&nbsp;TCollection&nbsp;<span class="keyword">As</span>&nbsp;<a class="type" href="http://msdn.microsoft.com/en-us/library/9eekhta0">IEnumerable</a>&#65279;(<span class="keyword">Of</span>&nbsp;TElement),&nbsp;TElement)&#65279;(&nbsp;_</p>
+<div>
+<p>validator <span class="keyword">As</span>&nbsp;<a class="type" href="Conditions.ConditionValidator(T).html">ConditionValidator</a>&#65279;(<span class="keyword">Of</span>&nbsp;TCollection),&nbsp;_</p>
+<p>elements <span class="keyword">As</span>&nbsp;<a class="type" href="http://msdn.microsoft.com/en-us/library/9eekhta0">IEnumerable</a>&#65279;(<span class="keyword">Of</span>&nbsp;TElement),&nbsp;_</p>
+<p>conditionDescription <span class="keyword">As</span>&nbsp;<span class="keyword">String</span>&nbsp;_</p>
+</div>
+<p>) <span class="keyword">As</span>&nbsp;<a class="type" href="Conditions.ConditionValidator(T).html">ConditionValidator</a>&#65279;(<span class="keyword">Of</span>&nbsp;TCollection)</p>
+</div>
+</div>
+<div class="code-block" lang="x-cpp">
+<div class="code-header"><span class="title">C++</span></div>
+<div class="code"><p><span class="keyword">public</span>:</p>
+<p><span class="keyword">generic</span>&lt;<span class="keyword">typename</span>&nbsp;TCollection, <span class="keyword">typename</span>&nbsp;TElement&gt;</p>
+<p><span class="keyword">where</span>&nbsp;TCollection&nbsp;: <a class="type" href="http://msdn.microsoft.com/en-us/library/9eekhta0">IEnumerable</a>&lt;TElement&#65279;&gt;</p>
+<p><span class="keyword">static</span>&nbsp;<a class="type" href="Conditions.ConditionValidator(T).html">ConditionValidator</a>&lt;TCollection&#65279;&gt;^&nbsp;DoesNotContainAny&#65279;(</p>
+<div>
+<p><a class="type" href="Conditions.ConditionValidator(T).html">ConditionValidator</a>&lt;TCollection&#65279;&gt;^ validator,</p>
+<p><a class="type" href="http://msdn.microsoft.com/en-us/library/9eekhta0">IEnumerable</a>&lt;TElement&#65279;&gt;^ elements,</p>
+<p><a class="type" href="http://msdn.microsoft.com/en-us/library/system.string">String</a>^ conditionDescription</p>
+</div>
+<p>)</p>
+</div>
+</div>
+</div>
+<h3>Type Parameters</h3><div class="typeparam">
+TCollection
+</div>
+<div class="typeparam">
+TElement
+</div>
+<h3>Parameters</h3><div class="param">
+validator
+<div class="description">
+Type: <a href="Conditions.ConditionValidator(T).html"><span class="csharp">Conditions.ConditionValidator&lt;TCollection&#65279;&gt;</span><span class="vb">Conditions.ConditionValidator&#65279;(Of&nbsp;TCollection)</span><span class="cpp">Conditions::ConditionValidator&lt;TCollection&#65279;&gt;</span></a><br/>
+
+</div>
+</div>
+<div class="param">
+elements
+<div class="description">
+Type: <a href="http://msdn.microsoft.com/en-us/library/9eekhta0"><span class="csharp">System.Collections.Generic.IEnumerable&lt;TElement&#65279;&gt;</span><span class="vb">System.Collections.Generic.IEnumerable&#65279;(Of&nbsp;TElement)</span><span class="cpp">System.Collections.Generic::IEnumerable&lt;TElement&#65279;&gt;</span></a><br/>
+
+</div>
+</div>
+<div class="param">
+conditionDescription
+<div class="description">
+Type: <a href="http://msdn.microsoft.com/en-us/library/system.string"><span class="csharp">System.String</span><span class="vb">System.String</span><span class="cpp">System::String</span></a><br/>
+
+</div>
+</div>
+<h3>Return Value</h3><div class="return-value">
+Type: <a href="Conditions.ConditionValidator(T).html"><span class="csharp">Conditions.ConditionValidator&lt;TCollection&#65279;&gt;</span><span class="vb">Conditions.ConditionValidator&#65279;(Of&nbsp;TCollection)</span><span class="cpp">Conditions::ConditionValidator&lt;TCollection&#65279;&gt;</span></a><br/>
+
+</div>
+</div>
+
+<h2 id="seealso">See Also</h2>
+<div>
+	<div><a href="Conditions.ValidatorExtensions.html"><span class="csharp">ValidatorExtensions</span><span class="vb">ValidatorExtensions</span><span class="cpp">ValidatorExtensions</span> Class</a></div>
+	<div><a href="Conditions.ValidatorExtensions.DoesNotContainAny.html"><span class="csharp">DoesNotContainAny</span><span class="vb">DoesNotContainAny</span><span class="cpp">DoesNotContainAny</span> Overload</a></div>
+	<div><a href="Conditions.html"><span class="csharp">Conditions</span><span class="vb">Conditions</span><span class="cpp">Conditions</span> Namespace</a></div>
+</div>
+
+</div>
+</div>
+<script type="text/javascript">init();</script>
+</body>
+</html>
